@@ -1,32 +1,21 @@
-Initial setup for a Next.js project using ESLint, Prettier, Tailwind CSS, and automatic sorting for imports and classes.
+# Next.js Project Setup ✨
 
-## Stack
+Initial setup for a Next.js project using **Next.js**, **ESLint**, **Prettier**, **Tailwind CSS**, and automatic sorting for imports and classes.
+
+## 🚀 Stack
 
 - Next.js
-- ESLint with `eslint-plugin-simple-import-sort`
-- Prettier with `prettier-plugin-tailwindcss`
+- ESLint (`eslint-plugin-simple-import-sort`)
+- Prettier (`prettier-plugin-tailwindcss`)
 - Tailwind CSS
 - `.editorconfig` for consistent indentation
 
-## Project Structure
+## 📁 Project Structure
 
-```
-.
-├── .editorconfig
-├── .gitignore
-├── .prettierrc
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-├── next.config.ts
-├── postcss.config.mjs
-├── eslint.config.mjs
-├── README.md
-├── app/
-└── public/
-```
+- app/
+- public/
 
-## Configuration
+## 🛠️ Configuration
 
 ### `.editorconfig`
 
@@ -51,25 +40,25 @@ indent_size = 2
 
 ### ESLint
 
-The project uses `eslint-plugin-simple-import-sort` to automatically sort imports.
+Using `eslint-plugin-simple-import-sort` to automatically sort imports.
 
-## Scripts
+## 📜 Scripts
 
-- `dev` starts the development server
-- `build` builds the production bundle
-- `start` runs the production server
-- `lint` runs ESLint
-- `format` runs Prettier
+- `dev` — start the development server
+- `build` — build the production bundle
+- `start` — run the production server
+- `lint` — run ESLint
+- `format` — run Prettier
 
-## Tailwind Class Sorting
+## 🎨 Tailwind Class Sorting
 
-`prettier-plugin-tailwindcss` automatically sorts Tailwind CSS classes on save or when running:
+Sorting happens automatically on save or when running:
 
 ```
 npm run format
 ```
 
-## Getting Started
+## ▶️ Getting Started
 
 Install dependencies:
 
